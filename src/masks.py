@@ -1,10 +1,10 @@
-def get_mask_card_number():  # maskirovka nomera bankovskoi karty
+def get_mask_card_number():  # маскировка номера банковской карты
     print(
         f"Зашифрованный номер карты: {enter_card[-16:-12]} **** **{enter_card[-6:-4]}  {enter_card[-4:0]}"
     )
 
 
-def get_mask_account():  # maskirovka nomera bankovskogo cheta
+def get_mask_account():  # маскировка номера банковского счета
     print(f"зашифрованный номер счета: **{enter_schet[-5:-1]}")
 
 
